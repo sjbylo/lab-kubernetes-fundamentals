@@ -2,6 +2,7 @@ FROM quay.io/openshiftlabs/workshop-dashboard:3.3.1
 
 USER root
 
+
 COPY . /tmp/src
 
 RUN rm -rf /tmp/src/.git* && \
