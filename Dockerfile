@@ -1,5 +1,6 @@
 FROM quay.io/openshiftlabs/workshop-dashboard:3.3.1
 
+
 USER root
 
 
